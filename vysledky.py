@@ -204,7 +204,7 @@ def parse_request(no):
     print_time()
 
 #for no in range(1,448):
-for no in range(1,500):
+for no in range(1,550):
     parse_request(no)
     vydaje.to_csv('vydaje.csv',sep=',')
 
